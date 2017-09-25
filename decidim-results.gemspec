@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.license = "AGPLv3"
   s.homepage = "https://github.com/decidim/decidim"
   s.required_ruby_version = ">= 2.3.1"
-  
+
   s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
 
   s.add_dependency "decidim-core", "0.6.4"
