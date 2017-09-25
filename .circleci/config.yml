@@ -9,7 +9,7 @@ jobs:
       - image: postgres
         environment:
           POSTGRES_USER: postgres
-    parallelism: 4
+    parallelism: 1
     working_directory: /code
     steps:
       - run:
