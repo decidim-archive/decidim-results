@@ -16,15 +16,15 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.md"]
 
-  s.add_dependency "decidim-core", "0.6.4"
-  s.add_dependency "decidim-comments", "0.6.4"
+  s.add_dependency "decidim-core", "~> 0.6.4"
+  s.add_dependency "decidim-comments", "~> 0.6.4"
   s.add_dependency "searchlight", "~> 4.1.0"
   s.add_dependency "kaminari", "~> 1.0.1"
 
-  s.add_development_dependency "decidim-dev", "0.6.4"
-  s.add_development_dependency "decidim-admin", "0.6.4"
-  s.add_development_dependency "decidim-participatory_processes", "0.6.4"
-  s.add_development_dependency "decidim-comments", "0.6.4"
-  s.add_development_dependency "decidim-proposals", "0.6.4"
-  s.add_development_dependency "decidim-meetings", "0.6.4"
+  s.add_development_dependency "decidim-dev", "~> 0.6.4"
+  s.add_development_dependency "decidim-admin", "~> 0.6.4"
+  s.add_development_dependency "decidim-participatory_processes", "~> 0.6.4"
+  s.add_development_dependency "decidim-comments", "~> 0.6.4"
+  s.add_development_dependency "decidim-proposals", "~> 0.6.4"
+  s.add_development_dependency "decidim-meetings", "~> 0.6.4"
 end

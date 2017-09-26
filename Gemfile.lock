@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     decidim-results (0.6.4)
-      decidim-comments (= 0.6.4)
-      decidim-core (= 0.6.4)
+      decidim-comments (~> 0.6.4)
+      decidim-core (~> 0.6.4)
       kaminari (~> 1.0.1)
       searchlight (~> 4.1.0)
 
@@ -558,13 +558,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  decidim (= 0.6.4)
-  decidim-admin (= 0.6.4)
-  decidim-comments (= 0.6.4)
-  decidim-dev (= 0.6.4)
-  decidim-meetings (= 0.6.4)
-  decidim-participatory_processes (= 0.6.4)
-  decidim-proposals (= 0.6.4)
+  decidim (~> 0.6.4)
+  decidim-admin (~> 0.6.4)
+  decidim-comments (~> 0.6.4)
+  decidim-dev (~> 0.6.4)
+  decidim-meetings (~> 0.6.4)
+  decidim-participatory_processes (~> 0.6.4)
+  decidim-proposals (~> 0.6.4)
   decidim-results!
 
 RUBY VERSION
